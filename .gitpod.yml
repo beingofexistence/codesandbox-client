@@ -5,7 +5,7 @@
 # Learn more from ready-to-use templates: https://www.gitpod.io/docs/introduction/getting-started/quickstart
 
 tasks:
-  - init: nvm install 16 && nvm alias default 16 && yarn install && yarn run build
-    command: yarn run start
+  - init: nvm install 16 && nvm alias default 16 && yarn install && yarn build:deps
+    command: yarn start:fast
 
 
