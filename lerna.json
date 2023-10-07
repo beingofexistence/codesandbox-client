@@ -3,5 +3,5 @@
   "packages": ["packages/*", "standalone-packages/*"],
   "version": "independent",
   "useNx": false,
-  "useWorkspaces": false
+  "useWorkspaces": true
 }
